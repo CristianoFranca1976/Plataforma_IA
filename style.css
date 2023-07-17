@@ -1,0 +1,299 @@
+body {
+
+    
+    margin: 0;
+    
+}
+
+.projeto {
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 1000px;
+   background-image: url(assets/IMG-BG.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.container {
+    
+   
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    width: 1216px;
+    height: 868px;
+    border-radius: 32px;
+    border: 1px solid var(--gray-04, #334155);
+    background: rgba(2, 6, 23, 0.80);
+    
+      
+    
+}
+
+.container2 {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    width: 682px;
+    height: 602PX;
+    margin-top: 67px;
+   
+    
+}
+
+
+
+
+
+
+section {
+    
+    display: block;
+    text-align: center;
+    width: 682px;
+    height: 130px;
+   
+}
+
+img {
+    
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-05, #1E293B);
+    background: var(--gray-06, #0F172A);
+
+}
+
+p {
+
+    width: 100%;
+    height: 72px;
+    color: var(--gray-01, #F8FAFC);
+    margin-top: 24px;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+       
+}
+
+.cards {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+    width: 608px;
+    height: 432px;
+    margin: auto;
+    
+    
+}
+
+.card1, .card2, .card3, .card4 {
+   
+   
+   display: inline-flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1px;
+   width: 608px;
+   height: 96px;
+   border-radius: 16px;
+   border: 1px solid var(--gray-04, #334155);
+   background: var(--gray-06, #0F172A);
+
+
+}
+
+
+
+.card1-sub {
+   
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    width: 335px;
+    height: 64px;
+    margin: 16px;
+    padding: 0;
+
+}
+
+.card1-sub img {
+    margin: 0;
+
+}
+
+
+
+p1 {
+
+   width: 250px;
+   height: 23px;
+   color: var(--gray-02, #E2E8F0);
+   font-family: IBM Plex Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+  
+
+}
+
+
+a {
+  
+  width: 64px;
+  height: 64px;
+  background-image: url(assets/arrow-forward-outline.svg);
+  background-color: var(--gray-06, #0F172A);
+  border: none;
+ 
+}
+
+.line {
+    position: absolute;
+    width: 1096px;
+    height: 1px;
+    margin-top: 709px;
+    background: #334155;
+   
+
+}
+.container3 {
+
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    width: 1096px;
+    height: 64px;
+    margin-top: 749px;
+
+}
+
+.content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1016px;
+    height: 64px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-04, #334155);
+    background: var(--gray-06, #0F172A); 
+   
+}
+
+.content img {
+   
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin-left: 16px;
+}
+
+input {
+    
+    width: 1016px;
+    height: 23px;
+    margin: 16px 16px;
+    background: var(--gray-06, #0F172A);
+    border: none;
+    
+}
+
+button {
+    
+    
+    width: 64px;
+    height: 64px;
+    background-image: url(assets/PaperPlaneRight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    border: 1px solid var(--gray-04, #334155);
+    background-color: var(--gray-06, #0F172A);
+    
+   
+}
+
+input::placeholder {
+
+    width: 1016px;
+    height: 64px;
+    color: var(--gray-02, #E2E8F0);
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--gray-06, #0F172A);
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        
+    }
+    .container {
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    .container2 {
+        
+        
+        width: 100%;
+        height: 602px;
+        
+    }
+
+    .container3 {
+       
+        width: 100%;
+      
+    }
+
+    .content {
+        display: contents;
+        width: 100%;
+        
+        
+    }
+
+    section {
+        width: 100%;
+    }
+    p {
+        font-size: 20px;
+    }
+
+   p1 {
+    font-style: 10px;
+   }
+
+   input::placeholder {
+    font-size: 10px;
+   }
+    
+}
